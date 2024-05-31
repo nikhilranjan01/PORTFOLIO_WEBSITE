@@ -464,13 +464,13 @@ margin-bottom: 3rem;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
+        /* Remove display: none */
+        
     }
 
     .navbar.active{
         display: block;
     }
-
     .navbar a {
         display: block;
         font-size: 2rem;
